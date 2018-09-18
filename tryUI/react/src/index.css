@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.row .col {
+  margin-top: 20px
+}
+.ant-menu-submenu-title,.ant-menu-item {
+  font-size: 20px 
+}
+.allInfo {
+  display: flex;
+  justify-content: space-around
+}
+.infoTable {
+  width: 60vw;
+  margin-left: 20px
+}
+.infoList {
+  width: 30vw;
+  height: 420px;
+  overflow: auto;
+  text-align: center;
+}
+.infoList .hoverable:hover {
+  background: #42a5f5
+}
